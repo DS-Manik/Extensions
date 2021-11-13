@@ -1,0 +1,23 @@
+{
+    "name": "auto sender",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "this tool will select email content",
+    "permissions": ["contextMenus","tabs","activeTab"],
+
+    "background": {
+        "scripts": ["popup.js"]
+    },
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"1.png"
+    },
+    "icons": {
+
+        "16": "1.png"
+
+    }
+
+
+
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Mail content Selector",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "this tool will select email content",
+    "permissions": ["contextMenus"],
+
+    "background": {
+        "scripts": ["popup.js"]
+    },
+
+    "icons": {
+
+        "16": "1.png"
+
+    }
+
+
+
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Badge",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "This extension will disply count of new mails as badge",
+    "icons": {
+        "128": "128-icon.png",
+        "48": "48-icon.png",
+        "16": "16-icon.png"
+
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+
+    ],
+
+    "browser_action": {
+        "default_icon": "16-icon.png",
+        "default_popup": "popup.html"
+
+    }
+
+}

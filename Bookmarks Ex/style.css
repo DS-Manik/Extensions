@@ -1,0 +1,18 @@
+* {
+    height: fit-content;
+    width: 500px;
+}
+
+ul {
+    list-style: none;
+    border: 1px;
+}
+
+li {
+    border: 1px solid black;
+    width: 60%;
+}
+
+#addb {
+    width: fit-content;
+}
